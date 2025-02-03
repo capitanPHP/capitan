@@ -1,0 +1,71 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d062d20cc897267c45c0c609621808f1",
+    "packages": [
+        {
+            "name": "capitan/framework",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/capitanPHP/framework.git",
+                "reference": "67c7fda87505678da7c676e954087f1b0c4044d1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/capitanPHP/framework/zipball/67c7fda87505678da7c676e954087f1b0c4044d1",
+                "reference": "67c7fda87505678da7c676e954087f1b0c4044d1",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.3"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "capitan\\": "src/framework/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "capitan",
+                    "email": "capitanphp@tutamail.com"
+                }
+            ],
+            "description": "PHP Framework",
+            "homepage": "https://github.com/capitanPHP/framework",
+            "keywords": [
+                "capitan",
+                "capitanPHP",
+                "framework",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/capitanPHP/framework/issues",
+                "source": "https://github.com/capitanPHP/framework"
+            },
+            "time": "2025-01-26T07:20:18+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "capitan/framework": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8.3"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

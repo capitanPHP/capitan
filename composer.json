@@ -1,0 +1,26 @@
+{
+    "name": "capitan/capitan",
+    "description": "Capitan is a web application Framework that we have developed across borders for the purpose of PHP Framework.",
+    "type": "project",
+    "license": "MIT",
+    "homepage": "https://github.com/capitanPHP/capitan",
+    "authors": [
+        {
+            "name": "capitan",
+            "email": "capitanphp@tutamail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/capitanPHP/framework/issues",
+        "source": "https://github.com/capitanPHP/framework"
+    },
+    "require": {
+        "php": "^8.3",
+        "capitan/framework": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "main\\": "main"
+        }
+    }
+}
