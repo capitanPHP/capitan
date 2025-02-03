@@ -9,15 +9,6 @@ class index extends Controller
 {
     public function index()
     {
-        dump(
-            main()->getFrameworkDir(),
-            main()->getRootDir(),
-            main()->getMainDir(),
-            main()->getBufferDir(),
-            main()->getIniDir(),
-            main()->getViewDir()
-        );
-
         return 'Hello, World!';
     }
     public function index2()
